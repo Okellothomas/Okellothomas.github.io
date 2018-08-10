@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    background: url(oyes.JPG);
+    background-size: cover;
+    color: white;
+}
+
+.wrap{
+    width: 400px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    padding: 5px; 
+}
+form{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px dotted white;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    color: wheat;
+    padding: 10px;
+}
+input{
+    padding: 17px;
+    margin: 6px;
+    border-radius: 5px;
+    border: navy;
+}
+
+input[type = text], input[type = email], input[type = password]{
+ 
+    width: 87%;
+}
+input[type = submit]{
+    width: 90%;
+    background: whitesmoke;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: inherit;
+    color: aquamarine;
+}
+input[type = submit]:hover{
+    background: gray
+}
+select{
+    padding: 10px;
+
+    border-radius: 4px;
+}
+p{
+    color: wheat;
+    text-underline-position: auto;
+    text-align: center;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/view.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    
+        
+    <!-- This is the navbar section-->
+    <nav class="navbar">
+        <img src="StackThomas.PNG"/>
+        <span class="open-slide">
+            <a href="#" onclick="openslideMenu()">
+                <svg width = "30" height = "30">
+                    <path d = "M0,5 30,5" stroke = "#000" stroke-width = "5"/>
+                    <path d = "M0,14 30,14" stroke = "#000" stroke-width = "5"/>
+                    <path d = "M0,23 30,23" stroke = "#000" stroke-width = "5"/>
+
+                </svg>
+            </a>
+        </span>
+
+        <ul class="navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign-up</a></li>
+            <input type="text" placeholder="Search..">
+            
+        </ul>
+    </nav>
+
+    <div id="side-menu" class = "side-nav">
+        <a href="#" class = "btn-close" onclick="closeslideMenu()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="login.html">Sign-up</a>
+        <a href="#">Search</a>
+    </div>
+
+
+    <!-- This is the end of the navbar section.-->
+         
+    <!-- This is the beginning of the first section of the main page-->
+    <div class="container">
+        <div class="toppane">
+           <div class="right-pane">
+               <h3>stackoverflow lite:</h3><br>
+               <h5>
+                 <p>
+                     Welcome to the community of developers, Learners, Scholars. 
+                     Here we share, learn and Build each other.
+                 </p>
+               </h5>
+               <h2>Welcome and keep learning! Learn, share and grow!</h2>
+           </div> 
+           <div class="left-pane">
+           <p>
+               <button>
+                   Ask a Question
+               </button>
+           </p>
+        </div>
+        </div>
+        <div class="leftpane">
+          <h1>
+         
+                <h3>
+                        Post A Question.
+                  </h3>
+                  <br>
+                  
+                  <textarea rows="4" cols="50" placeholder="Type your Question here!">
+                          
+                  </textarea> 
+          
+                  <br><br>
+                  <input type="submit" name = "submit" value="submit">
+
+          </h1></div>
+        <div class="middlepane">
+              <h3>Most Recently Asked Questions! </h3><br><br>
+            <hr>
+ 
+             <div class = "question1">
+               <a href="#" style="text-decoration: none">This is the last question asked today, would you like to view the solution or would
+                   you like to work it out.
+               </a>
+             </div>
+
+             <div class = "view1">
+                   <button>
+                       View now
+                   </button>
+                </div>
+
+            <hr>
+ 
+            <div class = "question1">
+              <a href="#" style="text-decoration: none">This is the second last question asked today, would you like to view the solution or would
+                  you like to work it out.
+              </a>
+            </div>
+
+            <div class = "view1">
+                  <button>
+                      View now
+                  </button>
+               </div>
+
+           <hr>
+ 
+           <div class = "question1">
+             <a href="#" style="text-decoration: none">This is the third last question asked today, would you like to view the solution or would
+                 you like to work it out.
+             </a>
+           </div>
+
+           <div class = "view1">
+                 <button>
+                     View now
+                 </button>
+              </div>
+
+          <hr>
+
+           
+          <div class = "question1">
+                <a href="#" style="text-decoration: none">This is the first question asked today, would you like to view the solution or would
+                    you like to work it out.
+                </a>
+              </div>
+   
+              <div class = "view1">
+                    <button>
+                        View now
+                    </button>
+                 </div>
+
+        
+
+        </div>
+        <div class="rightpane">
+            <h4>Quick Navigation!</h4><br>
+            
+                <li><a href="login.html">Login</a></li><br>
+                <li><a href="signup.html">Sign-up</a></li><br>
+                <input type="text" placeholder="Search.."><br><hr><br>
+            <h4>Question & Answers Platform!</h4><br>
+            <img src="StackThomas.PNG"/ width="100%"><br><br><br>
+            <h4>
+                Stackoverflow lite a the platform to be for effective and efficent learning.<br>
+                Always feel part of the team and welcome again.
+            <h4>
+
+        </div>
+      </div>
+    <!--This is the main body-->
+
+
+    <!-- This is the end of the body-->
+
+    <footer>
+            <p>© 2018 Stackoverflow lite </p>
+    
+   </footer>
+    <!-- This is the end of the page section-->
+
+    <script>
+     
+     function openslideMenu(){
+         document.getElementById('side-menu').style.width = "250px";
+         document.getElementById('main').style.marginLeft = "250px";
+     }
+
+       function closeslideMenu(){
+         document.getElementById('side-menu').style.width = "0";
+         document.getElementById('main').style.marginLeft = "0";
+     }
+
+    </script>
+
+</body>
+</html>
